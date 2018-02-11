@@ -1,6 +1,5 @@
 
 <?php
-  
 	function make_calendar($month, $year) {
 				
 		$first_day = mktime(0, 0, 0, $month, 1, $year);
@@ -41,7 +40,7 @@
 		$calendar .= "</tr></table>";
 		return $calendar;
 	}
-     echo "<h1>CALENDAR 2017</h1>";
+     echo "<h1>CALENDAR 2018</h1>";
 	echo "<table><tr>";
 	for ($i = 1; $i < 13; ++$i) {
 		echo "<td>" . make_calendar($i, 2018) . "</td>";
